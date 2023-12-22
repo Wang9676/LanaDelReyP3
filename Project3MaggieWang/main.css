@@ -1,0 +1,660 @@
+@import url('https://fonts.googleapis.com/css2?family=League+Gothic&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Livvic:wght@400;700&display=swap');
+
+.body {
+    position: absolute;
+    width: 100%;
+    /*height: 100%;*/
+    height: 1040vh;
+    /*height: 100%; !* Change to other units if needed, e.g., height: 100vh; *!*/
+    left: 0;
+    top: 0;
+    /*overflow-x: hidden;*/
+    overflow: hidden;
+    background-color: black;
+}
+.box{
+    position: fixed;
+    top: 50px;
+    left: 40px;
+    width: 95%;
+    height: 60px;
+    background-color: black;
+    border-radius: 25px;
+    opacity: 0.6;
+    feGaussianBlur:40px;
+    z-index: 1;
+}
+.landing {
+    position: relative;
+    width: 100%;
+    height: 1000vh;
+    background-color: black;
+}
+
+.landingpic {
+    position: absolute;
+    /*top: -9800px;*/
+    top: -40px;
+    left: -40px;
+    opacity: 0.5;
+}
+#container {
+    position: fixed;
+    width: fit-content;
+    height: 80px;
+    top: 30px;
+    left: 0px;
+    /*background-color: red;*/
+    z-index: 2;
+    display: flex;
+    flex-wrap: wrap;
+    flex-direction: row;
+}
+.LanaDelRey {
+    position: relative;
+    top: -72px;
+    /*top: -74px;*/
+    width: 100vw;
+    height: 5rem;
+    color: white;
+    font-family: 'Livvic', sans-serif;
+    font-weight: bold;
+    font-size: 20px;
+    margin: 0 auto; /* Center horizontally */
+    display: flex;
+    justify-content: center; /* Center vertically */
+    align-items: center; /* Center vertically */
+
+}
+.About{
+    position: relative;
+    top: 35px;
+    left: 10%;
+    width: 20vw;
+    height: 5rem;
+    color: white;
+    font-family: 'Livvic', sans-serif;
+    /*font-weight: regular;*/
+    font-size: 20px;
+    /*margin: 0 auto; !* Center horizontally *!*/
+    display: flex;
+    /*justify-content: center; !* Center vertically *!*/
+    /*align-items: center; !* Center vertically *!*/
+}
+.Events{
+    position: relative;
+    top: 35px;
+    left: 1%;
+    width: 20vw;
+    height: 5rem;
+    color: white;
+    font-family: 'Livvic', sans-serif;
+    /*font-weight: regular;*/
+    font-size: 20px;
+    /*margin: 0 auto; !* Center horizontally *!*/
+    display: flex;
+    /*justify-content: center; !* Center vertically *!*/
+    /*align-items: center; !* Center vertically *!*/
+}
+.Albums{
+    position: relative;
+    top: -123px;
+    left: 73%;
+    width: 20vw;
+    height: 5rem;
+    color: white;
+    font-family: 'Livvic', sans-serif;
+    /*font-weight: regular;*/
+    font-size: 20px;
+    /*margin: 0 auto; !* Center horizontally *!*/
+    display: flex;
+    /*justify-content: center; !* Center vertically *!*/
+    /*align-items: center; !* Center vertically *!*/
+}
+.Purchases{
+    position: relative;
+    top: -123px;
+    left: 63%;
+    width: 20vw;
+    height: 5rem;
+    color: white;
+    font-family: 'Livvic', sans-serif;
+    /*font-weight: regular;*/
+    font-size: 20px;
+    /*margin: 0 auto; !* Center horizontally *!*/
+    display: flex;
+    /*justify-content: center; !* Center vertically *!*/
+    /*align-items: center; !* Center vertically *!*/
+}
+.Title{
+    position: relative;
+    top: -9000px;
+    left: 100px;
+    width: 80vw;
+    height: 5rem;
+    font-family: Inter, sans-serif;;
+    font-weight: bold;
+    font-size: 170px;
+    color: white;
+}
+.Title-outline{
+    position: relative;
+    top: -9080px;
+    left: 100px;
+    width: 80vw;
+    height: 5rem;
+    font-family: Inter, sans-serif;;
+    font-weight: bold;
+    -webkit-text-stroke: 4px #ffffff;
+    color:transparent;
+    font-size: 170px;
+    z-index: 1000;
+}
+/*#Big{*/
+/*    position: relative;*/
+/*    top: -9650px;*/
+/*    left: 350px;*/
+/*    transform: scaleX(-1);*/
+/*}*/
+/*.slideRight {*/
+/*    animation-name: slide-right-0-animation;*/
+/*    animation-duration: 5s;*/
+/*    visibility: visible;*/
+/*}*/
+
+#Big {
+    position: relative;
+    top: -9650px;
+    left: 350px;
+    transform: scaleX(-1);
+    /*transform: translateX(-60%);*/
+    /*transition: transform 2s ease; !* Smooth transition for sliding effect *!*/
+}
+.slideRight {
+    animation-name: slide-right-0-animation;
+    animation-duration: 3s;
+    visibility: visible;
+}
+@keyframes slide-right-0-animation{
+    0%{
+        left:-1000px;
+    }
+    100%{
+        left: 350px;
+    }
+}
+/*.slideRight {*/
+/*    animation-name: slideUp;*/
+/*    animation-duration: 5s;*/
+/*    visibility: visible;*/
+/*#text{*/
+/*    !*z-index: -1;*!*/
+/*    !*background-color: red;*!*/
+/*    width: fit-content;*/
+/*    !*width: 100%;*!*/
+/*    display: flex;*/
+/*    white-space: nowrap;*/
+/*    overflow: hidden;*/
+/*    !*height: 20rem;*!*/
+/*    !*margin-bottom: 13rem;*!*/
+/*}*/
+.Scroll{
+    position:relative;
+    top: -8800px;
+    left: 0px;
+    Width: 100%;
+    height: 8rem;
+    /*width: 900px;*/
+    /*font-size: 3.5rem;*/
+    /*margin: 0 4rem;*/
+    margin: 0 auto;
+    width: fit-content;
+    align-items: center;
+    animation: 25s slide infinite linear;
+    /*background-repeat: repeat-x;*/
+}
+
+@keyframes slide {
+    0%{left:0;}
+    100%{left:-100%;}
+
+}
+.Scroll h1{
+    display: inline-block;
+    font-family: 'Encode Sans Semi Expanded', sans-serif;
+    color: white;
+    opacity: 0.6;
+    font-size: 2rem;
+    margin: 0 2rem;
+    width: fit-content;
+}
+@keyframes slide2 {
+    0%{left:0;}
+    100%{left:-100%;}
+}
+.Scroll2{
+    position:relative;
+    /*top: 400px;*/
+    top: -8650px;
+    left: 0px;
+    height: 8rem;
+    /*width: 900px;*/
+    /*font-size: 3.5rem;*/
+    margin: 0 4rem;
+    width: fit-content;
+    align-items: center;
+    animation: 6s slide2 infinite linear;
+    animation-direction: reverse;
+}
+.Scroll2 h1 {
+    display: inline-block;
+    font-family: 'Encode Sans Semi Expanded', sans-serif;
+    color: white;
+    opacity: 0.6;
+    font-size: 2rem;
+    margin: 0 2rem;
+    width: fit-content;
+}
+.newalbum{
+    position: relative;
+    background-color: white;
+    width: 1500px;
+    height: 180px;
+    top: -9590px;
+    margin-left: auto;
+    margin-right:auto;
+}
+.newalbums {
+    position: relative;
+    margin: auto;
+    text-align: center;
+    top: 40px;
+    font-family: 'League Gothic', sans-serif;
+    font-size: 80px;
+    /*display: flex;*/
+    flex-wrap: wrap;
+    flex-direction: row;
+}
+.oceanblvd {
+    position: relative;
+    top: -9500px;
+    left: 8%;
+}
+ul {
+    list-style-type: none;
+    padding: 0; /* Optional: Remove default padding */
+    margin: 0; /* Optional: Remove default margin */
+    width: 400px;
+    height: 700px;
+}
+.playlist {
+    position: relative;
+    top: -10315px;
+    color: white;
+    left: 65%;
+    font-family: Livvic, sans-serif;
+    font-size: 20px;
+    text-align: center;
+    white-space: break-spaces;
+    overflow: auto; /* Add scrollbars if content overflows */
+    max-height: 800px; /* Set a maximum height for the scrollable area */
+}
+/*#play {*/
+/*    top: -9360px;*/
+/*    left: 45%;*/
+/*    width: 10px;*/
+/*    !*height: 100px;*!*/
+/*    background-color: transparent;*/
+/*    cursor: pointer;*/
+/*    z-index: 1000;*/
+/*    border-style: solid;*/
+/*    border-width: 20px 0 20px 40px;*/
+/*    border-color: transparent transparent transparent #ffffff;*/
+/*    position: relative;*/
+/*    !*!*background-color: red;*!*!*/
+/*}*/
+
+/*#pause {*/
+/*    !*content: '';*!*/
+/*    position: relative;*/
+/*    cursor: pointer;*/
+/*    top: -9401px;*/
+/*    left: 49%;*/
+/*    !*transform: translate(-30%, -50%);*!*/
+/*    width: 48px;*/
+/*    height: 45px;*/
+/*    z-index: 100;*/
+/*    !*color: white;*!*/
+/*    !*background-color: #fff; !* White color, you can change it *!*!*/
+/*    background-color: transparent}*/
+/*.left {*/
+/*    position: absolute;*/
+/*    top: -3px;*/
+/*    left: 0%;*/
+/*    width: 10px;*/
+/*    height: 45px;*/
+/*    !*color: white;*!*/
+/*    !*background-color: #fff; !* White color, you can change it *!*!*/
+/*    background-color: white;*/
+/*}*/
+/*.right {*/
+/*    position: absolute;*/
+/*    top: -3px;*/
+/*    left: 40%;*/
+/*    width: 10px;*/
+/*    height: 45px;*/
+/*    !*color: white;*!*/
+/*    background-color: white; !* White color, you can change it *!*/
+/*}*/
+.audio {
+    position: relative;
+    top: -8720px;
+    left: 9%;
+    z-index: 1000;
+    /*color: red;*/
+}
+
+.AppleStore{
+    position: relative;
+    top: -10260px;
+    left: 18%;
+    color:white;
+    font-family: Livvic,sans-serif;
+    font-size: 20px;
+    width: 200px;
+    text-align: left;
+}
+.AppleStore:hover{
+    width: 150px;
+    height: 50px;
+    /*padding: 5px;*/
+    /*margin: auto;*/
+    background-color: #11245F;
+    border-radius: 5px;
+    opacity: 0.9;
+    justify-content: center;
+
+}
+.GoogleStore{
+    position: relative;
+    top: -10310px;
+    left: 32%;
+    color:white;
+    font-family: Livvic,sans-serif;
+    font-size: 20px;
+    width: 200px;
+    text-align: left;
+}
+.GoogleStore:hover{
+    width: 150px;
+    height: 50px;
+    /*padding: 5px;*/
+    /*margin: auto;*/
+    background-color: #11245F;
+    border-radius: 5px;
+    opacity: 0.9;
+    justify-content: center;
+
+}
+.line {
+    position: relative;
+    top: -10100px;
+    width: 90%;
+    left: 5%;
+    height: 3px;
+    background-color: white;
+}
+.line2 {
+    position: relative;
+    top: -9800px;
+    width: 90%;
+    left: 5%;
+    height: 3px;
+    background-color: white;
+}
+.AboutLana {
+    position: relative;
+    top: -10030px;
+    /*width: 90%;*/
+    left: 6%;
+    /*height: 1px;*/
+    color: white;
+    font-family: 'League Gothic', sans-serif;
+    font-size: 80px;
+    /*background-color: white;*/
+}
+#Lana {
+    position: relative;
+    top: -9970px;
+    width: 87%;
+    left: 6%;
+    color: white;
+    font-family: Livvic, sans-serif;
+    font-size: 30px;
+    line-height: 60px;
+    opacity:1;
+    transition: all .5s;
+}
+.Born{
+    position:relative;
+    top: -9700px;
+    left: 78%;
+    color: white;
+    font-family: 'League Gothic', sans-serif;
+    font-size: 60px;
+}
+.borntodie{
+    position: relative;
+    top: -9600px;
+    left: 45%;
+}
+.playlist2 {
+    position: relative;
+    top: -10400px;
+    color: white;
+    left: 15%;
+    font-family: Livvic, sans-serif;
+    font-size: 20px;
+    text-align: center;
+    white-space: break-spaces;
+    overflow: auto; /* Add scrollbars if content overflows */
+    max-height: 800px; /* Set a maximum height for the scrollable area */
+}
+.audio2 {
+    position: relative;
+    top: -10490px;
+    left: 68%;
+    z-index: 1000;
+    /*color: red;*/
+}
+
+.AppleStore2{
+    position: relative;
+    top: -10390px;
+    left: 55%;
+    color:white;
+    font-family: Livvic,sans-serif;
+    font-size: 20px;
+    width: 200px;
+    text-align: left;
+}
+.AppleStore2:hover{
+    width: 150px;
+    height: 50px;
+    /*padding: 5px;*/
+    /*margin: auto;*/
+    background-color: #11245F;
+    border-radius: 5px;
+    opacity: 0.9;
+    justify-content: center;
+
+}
+.GoogleStore2{
+    position: relative;
+    top: -10440px;
+    left: 70%;
+    color:white;
+    font-family: Livvic,sans-serif;
+    font-size: 20px;
+    width: 200px;
+    text-align: left;
+}
+.GoogleStore2:hover{
+    width: 150px;
+    height: 50px;
+    /*padding: 5px;*/
+    /*margin: auto;*/
+    background-color: #11245F;
+    border-radius: 5px;
+    opacity: 0.9;
+    justify-content: center;
+
+}
+.honeymoon{
+    position:relative;
+    top: -10200px;
+    left: 10%;
+    color: white;
+    font-family: 'League Gothic', sans-serif;
+    font-size: 60px;
+}
+.hm{
+    position: relative;
+    top: -10100px;
+    left: 10%;
+}
+.playlist3 {
+    position: relative;
+    top: -10890px;
+    color: white;
+    left: 60%;
+    font-family: Livvic, sans-serif;
+    font-size: 20px;
+    text-align: center;
+    white-space: break-spaces;
+    overflow: auto; /* Add scrollbars if content overflows */
+    max-height: 800px; /* Set a maximum height for the scrollable area */
+}
+.audio3 {
+    position: relative;
+    top: -10990px;
+    left: 12%;
+    z-index: 1000;
+    /*color: red;*/
+}
+
+.AppleStore3{
+    position: relative;
+    top: -10890px;
+    left: 18%;
+    color:white;
+    font-family: Livvic,sans-serif;
+    font-size: 20px;
+    width: 200px;
+    text-align: left;
+}
+.AppleStore3:hover{
+    width: 150px;
+    height: 50px;
+    /*padding: 5px;*/
+    /*margin: auto;*/
+    background-color: #11245F;
+    border-radius: 5px;
+    opacity: 0.9;
+    justify-content: center;
+
+}
+.GoogleStore3{
+    position: relative;
+    top: -10940px;
+    left: 33%;
+    color:white;
+    font-family: Livvic,sans-serif;
+    font-size: 20px;
+    width: 200px;
+    text-align: left;
+}
+.GoogleStore3:hover{
+    width: 150px;
+    height: 50px;
+    /*padding: 5px;*/
+    /*margin: auto;*/
+    background-color: #11245F;
+    border-radius: 5px;
+    opacity: 0.9;
+    justify-content: center;
+
+}
+.line3 {
+    position: relative;
+    top: -10700px;
+    width: 90%;
+    left: 5%;
+    height: 3px;
+    background-color: white;
+}
+.line4 {
+    position: relative;
+    top: -8900px;
+    width: 90%;
+    left: 5%;
+    height: 3px;
+    background-color: white;
+}
+.vinyl {
+    position: relative;
+    top: -10580px;
+    left: 10%;
+    font-family: 'League Gothic', sans-serif;
+    font-size: 60px;
+    color: white;
+}
+#vinylPic {
+    position: relative;
+    top: -10400px;
+    left: 20%;
+}
+.slideUp{
+    animation-name: slideUp;
+    animation-duration: 5s;
+    visibility: visible;
+}
+@keyframes slideUp{
+    0%{
+        opacity: 0;
+        transform:translateY(70%);
+    }
+    100%{
+        opacity: 1;
+        transform: translate(0%);
+    }
+}
+.merch {
+    position: relative;
+    top: -10180px;
+    left: 10%;
+    font-family: 'League Gothic', sans-serif;
+    font-size: 60px;
+    color: white;
+}
+#merchPic {
+    position: relative;
+    top: -10100px;
+    left: 15%;
+}
+.slideUp1{
+    animation-name: slideUp1;
+    animation-duration: 10s;
+    visibility: visible;
+}
+@keyframes slideUp1{
+    0%{
+        opacity: 0;
+        transform:translateY(70%);
+    }
+    100%{
+        opacity: 1;
+        transform: translate(0%);
+    }
+}
